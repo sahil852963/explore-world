@@ -3,7 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+:root{
+	--primary-color: rgb(0, 174, 255);
+}
 body {
 	background-color: #fdfdfd;
 	font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +19,7 @@ body {
 }
 
 header {
-	background: #0e3959;
+	background: var(--primary-color);
 	color: #fff;
 	padding: 20px 0;
 	position: sticky;
@@ -99,7 +101,7 @@ nav a:hover {
 .home-content .btn {
 	background: #ffca28;
 	padding: 12px 25px;
-	color: #0e3959;
+	color: var(--primary-color);
 	border-radius: 5px;
 	font-weight: 500;
 	text-decoration: none;
@@ -107,7 +109,7 @@ nav a:hover {
 
 .home-content .btn:hover {
 	background: #fff;
-	color: #0e3959;
+	color: var(--primary-color);
 }
 
 section {
@@ -200,7 +202,7 @@ section .container {
 .package h3 {
 	margin: 10px 0;
 	font-size: 1.2rem;
-	color: #0e3959;
+	color: var(--primary-color);
 }
 
 .package p {
@@ -215,7 +217,7 @@ section .container {
 }
 
 .package button {
-	background: #0e3959;
+	background: var(--primary-color);
 	color: #fff;
 	border: none;
 	padding: 10px 20px;
@@ -228,7 +230,7 @@ section .container {
 
 .package button:hover {
 	background: #ffca28;
-	color: #0e3959;
+	color: var(--primary-color);
 	transform: scale(1.05);
 }
 
@@ -239,7 +241,7 @@ section .container {
 
 #testimonials h2 {
 	text-align: center;
-	color: #0e3959;
+	color: var(--primary-color);
 	font-size: 2rem;
 	margin-bottom: 40px;
 }
@@ -259,7 +261,7 @@ section .container {
 }
 
 .testimonial i {
-	color: yellow;
+	color: rgb(255, 157, 0);
 	margin-bottom: 10px;
 }
 
@@ -269,7 +271,7 @@ section .container {
 }
 
 .testimonial h4 {
-	color: #0e3959;
+	color: var(--primary-color);
 	margin-bottom: 10px;
 }
 
@@ -281,7 +283,7 @@ section .container {
 
 #booking h2 {
 	text-align: center;
-	color: #0e3959;
+	color: var(--primary-color);
 	font-size: 2rem;
 	margin-bottom: 20px;
 }
@@ -306,7 +308,7 @@ form textarea {
 }
 
 form button {
-	background: #0e3959;
+	background: var(--primary-color);
 	color: #fff;
 	border: none;
 	border-radius: 7px;
@@ -317,11 +319,11 @@ form button {
 
 form button:hover {
 	background: yellow;
-	color: #0e3959;
+	color: var(--primary-color);
 }
 
 footer {
-	background: #0e3959;
+	background: var(--primary-color);
 	color: #fff;
 	padding: 40px 0 0;
 }
